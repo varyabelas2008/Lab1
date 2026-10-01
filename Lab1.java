@@ -9,9 +9,9 @@ public class Main {
 
     public static void main(String[] args) {
         // Считывание трёх целых чисел a, b и c из консоли
-        int a = in.nextInt();
-        int b = in.nextInt();
-        int c = in.nextInt();
+        long a = in.nextLong();
+        long b = in.nextLong();
+        long c = in.nextLong();
 
         // Сначала проверяем наличие нулей — это приоритетное условие
         if (a == 0 || b == 0 || c == 0) {
